@@ -9,6 +9,9 @@ import Users from "./pages/Users";
 import Account from "./pages/Account";
 import PageNotFound from "./pages/PageNotFound";
 import AppLayout from "./ui/AppLayout";
+import { QueryClient } from "@tanstack/react-query";
+
+const queryClient = new QueryClient({});
 
 function App() {
   return (
