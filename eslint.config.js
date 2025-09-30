@@ -28,6 +28,7 @@ export default defineConfig([
     // Custom rule overrides (modify rule levels or disable rules)
     rules: {
       "@eslint-react/no-missing-key": "warn",
+      "no-unused-vars": "off",
     },
   },
 ]);
